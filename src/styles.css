@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/* .bg-stella {
+    background-color: #7f6aaf;
+} */
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.bg-stella {
+    background: linear-gradient(225deg, #1d0f81 0%, #6a28bc 100%);
+}
+
+.flex {
+    display: flex;
+}
+
+.center-x {
+    justify-content: center;
+}
+
+.center-y {
+    align-items: center;
+}
+
+body {
+    background: #f8f4fc;
+    font-family: 'Rubik', sans-serif;;
+}

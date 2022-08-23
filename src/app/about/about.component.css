@@ -1,0 +1,91 @@
+div.flex {
+    flex-wrap: wrap;
+    min-height: 90vh;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+div.flex, i {
+    color: #1d0e81;
+}
+
+i:hover, p > a:hover {
+    color: #9c6ecb
+}
+
+div.flex, ul {
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article.card-body {
+    text-align: center;
+}
+
+article.card {
+    width: 60vw;
+    margin: 2rem;
+}
+
+#introduction > p {
+    width: 90vw;
+}
+
+i {
+    font-size: 2em;
+}
+
+p > a {
+    color: #6a28bc;
+    text-decoration: none;
+    font-style: italic;
+}
+
+@media (min-height: 750px) { 
+    div.flex {
+        margin: 0;
+        align-content: space-evenly;
+    }
+    #introduction {
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    article.card {
+        width: 40vw;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    article.card {
+        width: 50vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    article.card {
+        width: 20vw;
+    }
+    #introduction > p {
+        width: 60vw;
+        font-size: large;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
