@@ -1,25 +1,9 @@
-div.flex {
-    flex-wrap: wrap;
-    min-height: 90vh;
-    margin: 1rem;
-    margin-top: 2rem;
-}
-
-div.flex, i {
-    color: #1d0e81;
-}
-
 i:hover, p > a:hover {
     color: #9c6ecb
 }
 
 div.flex, ul {
     justify-content: space-evenly;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 article.card-body {
@@ -43,6 +27,10 @@ p > a {
     color: #6a28bc;
     text-decoration: none;
     font-style: italic;
+}
+
+p.card-title {
+    font-size: large;
 }
 
 @media (min-height: 750px) { 

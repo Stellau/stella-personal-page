@@ -4,7 +4,7 @@
 } */
 
 @import "~bootstrap-icons/font/bootstrap-icons.css";
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 .bg-stella {
     background: linear-gradient(225deg, #1d0f81 0%, #6a28bc 100%);
@@ -12,6 +12,10 @@
 
 .flex {
     display: flex;
+}
+
+.hidden {
+    display: none;
 }
 
 .center-x {
@@ -22,7 +26,27 @@
     align-items: center;
 }
 
+.main-container {
+    flex-wrap: wrap;
+    min-height: 90vh;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+div.flex, i {
+    color: #1d0e81;
+}
+
 body {
     background: #f8f4fc;
-    font-family: 'Rubik', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3, ul.dropdown-menu.show a, .card-title, .sub {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
