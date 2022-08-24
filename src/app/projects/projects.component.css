@@ -5,12 +5,12 @@
 }
 
 h2 {
-    margin-bottom: 2rem;
-    font-size: 3em;
+    margin-bottom: 1rem;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 article.flex, ul.flex {
@@ -29,12 +29,16 @@ article > div {
     min-width: 80vw;
 }
 
-section {
+section, h3 a {
     margin-left: 0.5rem;
 }
 
 ul {
     max-width: fit-content;
+}
+
+h3 i {
+    font-size: 1.5em;
 }
 
 /* tall phones */

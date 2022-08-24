@@ -1,8 +1,4 @@
-i:hover, p > a:hover {
-    color: #9c6ecb
-}
-
-div.flex, ul {
+div.flex {
     justify-content: space-evenly;
 }
 
@@ -17,16 +13,6 @@ article.card {
 
 #introduction > p {
     width: 90vw;
-}
-
-i {
-    font-size: 2em;
-}
-
-p > a {
-    color: #6a28bc;
-    text-decoration: none;
-    font-style: italic;
 }
 
 p.card-title {

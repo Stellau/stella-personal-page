@@ -37,16 +37,31 @@ div.flex, i {
     color: #1d0e81;
 }
 
+p > a {
+    color: #6a28bc;
+    text-decoration: none;
+    font-style: italic;
+}
+
+i:hover, p > a:hover {
+    color: #9c6ecb
+}
+
 body {
     background: #f8f4fc;
     font-family: 'Open Sans', sans-serif;
 }
 
-h2, h3, ul.dropdown-menu.show a, .card-title, .sub {
+h1, h2, h3, ul.dropdown-menu.show a, .card-title, .sub, p>a {
     font-weight: bold;
 }
 
 ul {
+    justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
+}
+
+i {
+    font-size: 2em;
 }
