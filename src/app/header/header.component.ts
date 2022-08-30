@@ -21,6 +21,9 @@ export class HeaderComponent implements OnInit {
 
   toggleHamburger() {
     this.openHamburger = !this.openHamburger;
+    if (!this.openHamburger) {
+      this.openDropdown = false;
+    }
   }
 
 }

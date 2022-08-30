@@ -26,6 +26,10 @@ i {
     font-size: 3.5em;
 }
 
+section {
+    margin-bottom: 3rem;
+}
+
 /* tall phones */
 @media (min-height: 750px) {
     i {

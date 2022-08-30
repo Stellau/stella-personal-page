@@ -16,7 +16,7 @@ img {
     height:auto;
 }
 
-div.card-body h2 {
+h2 {
     text-align:center;
     font-size:0.8em;
 }
@@ -29,5 +29,12 @@ div.card-body h2 {
     
     img.long {
         max-width: 20vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h2 {
+        font-size: 1.2em;
     }
 }
