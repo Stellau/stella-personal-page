@@ -9,6 +9,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { ExperienceComponent } from './experience/experience.component';
 import { GHC22Component } from './ghc22/ghc22.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { WebsitesComponent } from './websites/websites.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CookingComponent } from './cooking/cooking.component';
+import { EmbroideryComponent } from './embroidery/embroidery.component';
+import { MusicMovieComponent } from './music-movie/music-movie.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +23,16 @@ import { ProjectsComponent } from './projects/projects.component';
     FooterComponent,
     ExperienceComponent,
     GHC22Component,
-    ProjectsComponent
+    ProjectsComponent,
+    WebsitesComponent,
+    CookingComponent,
+    EmbroideryComponent,
+    MusicMovieComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

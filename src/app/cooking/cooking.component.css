@@ -1,0 +1,33 @@
+div.img-container {
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+article.card {
+    height: fit-content;
+    max-width:35vw;
+    margin:1rem;
+}
+
+img {
+    max-height:45vw;
+    max-width:35vw;
+    width:auto;
+    height:auto;
+}
+
+div.card-body h2 {
+    text-align:center;
+    font-size:0.8em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    article.long {
+        max-width: 20vw;
+    }
+    
+    img.long {
+        max-width: 20vw;
+    }
+}

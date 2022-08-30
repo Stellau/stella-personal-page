@@ -51,6 +51,9 @@ h3 i {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    h2 {
+        font-size: 3em;
+    }
     article > div {
         min-width:80vw;
     }

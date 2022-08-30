@@ -2,13 +2,13 @@ div.flex {
     justify-content: space-evenly;
 }
 
-article.card-body {
-    text-align: center;
-}
-
 article.card {
     width: 60vw;
     margin: 2rem;
+}
+
+div.card-body p {
+    text-align: center;
 }
 
 #introduction > p {
