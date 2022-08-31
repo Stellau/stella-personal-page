@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CookingComponent } from './cooking/cooking.component';
 import { EmbroideryComponent } from './embroidery/embroidery.component';
 import { MusicMovieComponent } from './music-movie/music-movie.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MusicMovieComponent } from './music-movie/music-movie.component';
     WebsitesComponent,
     CookingComponent,
     EmbroideryComponent,
-    MusicMovieComponent
+    MusicMovieComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

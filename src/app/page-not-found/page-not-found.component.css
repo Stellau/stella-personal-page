@@ -1,0 +1,7 @@
+div.main-container {
+    flex-direction: column;
+}
+
+p {
+    font-size: 2em;
+}

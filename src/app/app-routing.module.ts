@@ -6,6 +6,7 @@ import { EmbroideryComponent } from './embroidery/embroidery.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { GHC22Component } from './ghc22/ghc22.component';
 import { MusicMovieComponent } from './music-movie/music-movie.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WebsitesComponent } from './websites/websites.component';
 
@@ -18,7 +19,9 @@ const appRoutes: Routes = [
     { path: 'websites', component: WebsitesComponent },
     { path: 'cooking', component: CookingComponent },
     { path: 'embroidery', component: EmbroideryComponent },
-    { path: 'music-movie', component: MusicMovieComponent }
+    { path: 'music-movie', component: MusicMovieComponent },
+    { path: 'page-not-found', component: PageNotFoundComponent},
+    { path: '**', redirectTo: '/page-not-found', pathMatch: 'full' }
   ];
 
 @NgModule({
