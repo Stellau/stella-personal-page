@@ -1,57 +1,58 @@
-<nav class="navbar navbar-dark navbar-expand-lg bg-stella sticky-top" aria-label="Main">
-    <div class="container-fluid">
-        <a class="navbar-brand"  routerLink="/about">Stella Lau</a>
-        <button
-            (click)="toggleHamburger()"
-            [ngClass]="{ collapsed: !openHamburger }"
-            class="navbar-toggler"
-            type="button"
-            [attr.aria-expanded]="openHamburger"
-            aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" [ngClass]="{ show: openHamburger }">
-            <ul class="navbar-nav">
-                <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link" routerLink="/about">About</a>
-                </li>
-                <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link" routerLink="/ghc22">GHC 22 Scholar</a>
-                </li>
-                <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link" routerLink="/experience">Experience and Education</a>
-                </li>
-                <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link" routerLink="/projects">Projects</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a 
-                        (click)="toggleDropdown()"
-                        [ngClass]="{ show: openDropdown }"
-                        class="nav-link dropdown-toggle"
-                        role="button"
-                        aria-label="Toggle Dropdown"
-                        [attr.aria-expanded]="openDropdown">
-                        Things I Like ...
-                    </a>
-                    <ul [ngClass]="{ show: openDropdown }" class="dropdown-menu">
-                        <li routerLinkActive="active" routerLink="/websites">
-                            <a class="dropdown-item nav-link">Websites</a>
-                        </li>
-                        <li routerLinkActive="active">
-                            <a class="dropdown-item nav-link" routerLink="/cooking">Cooking and Baking</a>
-                        </li>
-                        <li routerLinkActive="active">
-                            <a class="dropdown-item nav-link" routerLink="/embroidery">Embroidery</a>
-                        </li>
-                        <li routerLinkActive="active" routerLink="/music-movie">
-                            <a class="dropdown-item nav-link">Music and Movies</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+<header class="sticky-top">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-stella" aria-label="Main">
+        <div class="container-fluid">
+            <a class="navbar-brand"  routerLink="/about">Stella Lau</a>
+            <button
+                (click)="toggleHamburger()"
+                [ngClass]="{ collapsed: !openHamburger }"
+                class="navbar-toggler"
+                type="button"
+                [attr.aria-expanded]="openHamburger"
+                aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" [ngClass]="{ show: openHamburger }">
+                <ul class="navbar-nav">
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/about">About</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/ghc22">GHC 22 Scholar</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/experience">Experience and Education</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/projects">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a 
+                            (click)="toggleDropdown()"
+                            [ngClass]="{ show: openDropdown }"
+                            class="nav-link dropdown-toggle"
+                            role="button"
+                            aria-label="Toggle Dropdown"
+                            [attr.aria-expanded]="openDropdown">
+                            Things I Like ...
+                        </a>
+                        <ul [ngClass]="{ show: openDropdown }" class="dropdown-menu">
+                            <li routerLinkActive="active" routerLink="/websites">
+                                <a class="dropdown-item nav-link">Websites</a>
+                            </li>
+                            <li routerLinkActive="active">
+                                <a class="dropdown-item nav-link" routerLink="/cooking">Cooking and Baking</a>
+                            </li>
+                            <li routerLinkActive="active">
+                                <a class="dropdown-item nav-link" routerLink="/embroidery">Embroidery</a>
+                            </li>
+                            <li routerLinkActive="active" routerLink="/music-movie">
+                                <a class="dropdown-item nav-link">Music and Movies</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
-
+    </nav>    
+</header>
 
