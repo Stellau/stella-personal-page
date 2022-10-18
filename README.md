@@ -1,6 +1,6 @@
 # Stella's Personal Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0. Navigate to `https://www.stellau852.com/` to visit live site.
 
 ## Development server
 
